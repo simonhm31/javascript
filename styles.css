@@ -2,6 +2,7 @@ body {
     margin: auto;
     text-align: center;
     width: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .title {
@@ -28,4 +29,6 @@ body {
     margin-bottom: 30px;
     background-color: aquamarine;
     box-shadow: 0 0 10px grey;
+    padding-left: 10px;
+    padding-right: 10px;
 }
