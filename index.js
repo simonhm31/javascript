@@ -208,3 +208,9 @@ console.log(y); //Returns 18.
 
 
 //Logical Operators with Non-Booleans
+
+console.log(false || true); //Returns true
+console.log(false || "Simon"); // Returns 'Simon'
+console.log(false || 1) //Returns 1
+
+//The result of a logical operator is NOT necessarily true or false
