@@ -209,8 +209,68 @@ console.log(y); //Returns 18.
 
 //Logical Operators with Non-Booleans
 
-console.log(false || true); //Returns true
-console.log(false || "Simon"); // Returns 'Simon'
-console.log(false || 1) //Returns 1
+    console.log(false || true); //Returns true
+    console.log(false || "Simon"); // Returns 'Simon'
+    console.log(false || 1) //Returns 1
 
-//The result of a logical operator is NOT necessarily true or false
+    //The result of a logical operator is NOT necessarily true or false
+
+    //This is because of "truthy" and "falsy" values
+
+    //Falsy values:
+    // undefined
+    // null
+    // 0
+    // false
+    // '' (empty string)
+    // NaN
+
+    // Anything that is not Falsy -> Truthy
+
+
+    //In this case, or (||) looks for the first Truthy value. 
+    let userColor = 'red';
+    let defaultColor = 'blue';
+    let currentColor = userColor || defaultColor;
+
+    console.log(currentColor); //Returns 'red
+
+    //However if we change userColor to undefined, or (||) looks for the FIRST Truthy value which is now 'blue
+    userColor = undefined;
+    defaultColor = 'blue';
+    currentColor = userColor || defaultColor;
+
+    console.log(currentColor); //Returns Blue
+
+    // Using the or (||) logical operator with non-Booleans can find Truthy/Falsey values
+
+
+
+//Bitwise Operators
+
+    // | (Bitwise OR)
+    // & (Bitwise AND)
+
+    console.log(1 | 2); //Returns 3
+    console.log(1 & 2); //Returns 0
+
+    //Bitwise Operators don't have as much practical application as Logical Operators 
+
+
+
+
+//Exercise: Swapping Variables
+
+    // Swap the values of a and b here to make the two console.log statements switch
+    let a = 'red';
+    let b = 'blue';
+
+    a = 'blue';
+    b = 'red';
+
+    console.log(a); //Returns red
+    console.log(b); //Returns blue
+
+
+
+
