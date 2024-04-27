@@ -116,3 +116,95 @@ console.log(y); //Returns 18.
     console.log(x) //Returns 0
 
 //Comparison Operators
+    //comparison operators return a Boolean
+
+    //Relational Operators:
+    // > greater than
+    // >= greater than or equal to
+    // < less than
+    // <= less than or equal to
+
+    //Equality Operators
+    // === is equal to
+    // !== is not equal to
+
+    x = 1;
+
+    //Relational Operators
+    console.log(x > 0); // returns true
+    console.log(x >= 1); //returns true
+    console.log(x < 1); //returns false
+    console.log(x <= 1); //returns true
+
+    //Equality Operators
+    console.log(x === 1); //returns true
+    console.log(x !== 1); //returns false
+
+
+//Equality Operators
+
+    //Strict Equality (checks for type AND value)
+    console.log(1 === 1); //returns true
+    console.log(1 === '1'); //returns false
+    console.log(1 === true); //returns false
+
+    //Loose Equality (adjusts type to make comparison possible )
+    console.log( 1 == 1); // returns true
+    console.log(1 == '1'); //returns true
+    console.log(true == 1); //returns true
+
+
+
+//Ternary (conditional) operator
+
+
+    //If a customer has more than 100 points, they are a gold customer. Otherwise,
+    //they are a silver customer.
+
+    let points = 110;
+
+    // If (points > 100) = true, then set typeOfCustomer to be gold. Else, set typeOfCustomer to be silver.
+    let typeOfCustomer = points > 100 ? "gold" : "silver"; 
+    console.log(typeOfCustomer); //returns gold
+
+    points = 99;
+    console.log(points); // returns 99
+    console.log(typeOfCustomer); //returns GOLD. Even though points = 99 here, the ternary operator doesn't have that info
+
+    //for typeOfCustomer to reflect current points, we have to make a new ternary oeprator
+    let updatedtypeOfCustomer = points > 100 ? "gold" : "silver"; 
+    console.log(updatedtypeOfCustomer); //returns silver
+
+
+//Logical Operators
+    //3 Logical Operators: Logical AND, logical OR, and NOT
+
+    // Logical AND (&&)
+    // Returns true if both operands are true
+    console.log(true && true); //Returns true
+    console.log(true && false); //Returns false
+
+    let highIncome = true;
+    let goodCreditScore = true;
+    let eligibleForLoan = highIncome && goodCreditScore;
+    console.log("Eligibility = " + eligibleForLoan); //Returns true
+
+    //Logical OR (||)
+    //Returns true if one of the operands is true
+
+    console.log(true || false); // Returns true
+    console.log(false || false); //Returns false
+
+    let goodAtFrontEnd = false;
+    let goodAtBackEnd = false;
+    let fullStackDeveloper = goodAtFrontEnd || goodAtBackEnd;
+    console.log(fullStackDeveloper); //Returns false
+
+    // NOT (!)
+
+    //If eligibleForLoan is true, !eligibleForLoan is false
+    let applicationRefused = !eligibleForLoan;
+    console.log("Application refused equals " + applicationRefused); //Returns false;
+
+
+//Logical Operators with Non-Booleans
