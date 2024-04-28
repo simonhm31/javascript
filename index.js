@@ -296,4 +296,35 @@ console.log(y); //Returns 18.
 
 //Switch... case
 
-let role 
+//Log the type of a user based on their role
+
+let role = "guest";
+
+// Returns "Guest User"
+switch(role) {
+    case "guest":
+        console.log("Guest User");
+        break;
+
+    case 'Moderator':
+        console.log("Moderator User");
+        break;
+
+    default:
+        console.log("Unknown User");
+}
+
+//Writing the same program using if... else
+
+role = "Guest";
+
+//returns "Unknown User"
+if(role === "guest"){
+    console.log("Guest User");
+}
+else if (role === "Moderator"){
+    console.log("Moderator User")
+}
+else {
+    console.log("Unknown User");
+}
