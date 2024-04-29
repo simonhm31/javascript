@@ -75,7 +75,7 @@ console.log(x + y); //x plus y
 console.log(x - y); //x minus y
 console.log(x * y); //x times y
 console.log(x / y); // x divided by y
-console.log(x % y); // what is the remainder when x is divded by y
+console.log(x % y); // what is the remainder when x is divided by y
 console.log(x ** y); // x to the power of y
 
 //Increment (++)
@@ -171,9 +171,9 @@ console.log(y); //Returns 18.
     console.log(points); // returns 99
     console.log(typeOfCustomer); //returns GOLD. Even though points = 99 here, the ternary operator doesn't have that info
 
-    //for typeOfCustomer to reflect current points, we have to make a new ternary oeprator
-    let updatedtypeOfCustomer = points > 100 ? "gold" : "silver"; 
-    console.log(updatedtypeOfCustomer); //returns silver
+    //for typeOfCustomer to reflect current points, we have to make a new ternary operator
+    let updatedTypeOfCustomer = points > 100 ? "gold" : "silver"; 
+    console.log(updatedTypeOfCustomer); //returns silver
 
 
 //Logical Operators
@@ -242,7 +242,7 @@ console.log(y); //Returns 18.
 
     console.log(currentColor); //Returns Blue
 
-    // Using the or (||) logical operator with non-Booleans can find Truthy/Falsey values
+    // Using the or (||) logical operator with non-Booleans can find Truthy/Falsy values
 
 
 
