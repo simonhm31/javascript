@@ -294,7 +294,7 @@ console.log(y); //Returns 18.
     
 
 
-//Switch... case
+//Switch... case. Switch ... case is somewhat outdated
 
     //Log the type of a user based on their role
 
