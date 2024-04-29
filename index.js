@@ -332,12 +332,19 @@ console.log(y); //Returns 18.
 
 //For
 
-    //Printing all the odd numbers 0 < 5, returns 1 and 3
-    for(let i = 0; i < 5; i++){
-        if(i%2 !== 0){
+    //Printing all the odd numbers 0 < 5, returns 1, 3, and 5
+    for(let i = 0; i <= 5; i++){
+        if(i % 2 !== 0){
             console.log("This is an odd number: ", i)
         }
     };
 
 //While
+
+    //Printing all the odd numbers 0 < 5, returns 1, 3, and 5
+    let i = 0;
+    while(i <= 5){
+        if(i % 2 !== 0) console.log("This is an odd number: ", i);
+        i++; 
+    }
 
