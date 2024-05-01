@@ -149,14 +149,13 @@ console.log(y); //Returns 18.
     console.log(1 === true); //returns false
 
     //Loose Equality (adjusts type to make comparison possible )
-    console.log( 1 == 1); // returns true
+    console.log(1 == 1); // returns true
     console.log(1 == '1'); //returns true
     console.log(true == 1); //returns true
 
 
 
 //Ternary (conditional) operator
-
 
     //If a customer has more than 100 points, they are a gold customer. Otherwise,
     //they are a silver customer.
