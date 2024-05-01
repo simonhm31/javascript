@@ -21,3 +21,20 @@
     function max(a, b){
         return (a > b) ? a : b;
     }
+
+
+//Given Two Variables, swap their values
+
+let valueOne = "one";
+let valueTwo = 'two';
+
+let transitionValue = valueOne;
+console.log("The transition value is " + transitionValue); //Returns one
+
+valueOne = valueTwo;
+valueTwo = transitionValue;
+
+console.log(valueOne);
+console.log(valueTwo);
+
+
