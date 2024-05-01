@@ -34,7 +34,7 @@ console.log("The transition value is " + transitionValue); //Returns one
 valueOne = valueTwo;
 valueTwo = transitionValue;
 
-console.log(valueOne);
+console.log(valueOne); 
 console.log(valueTwo);
 
 

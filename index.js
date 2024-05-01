@@ -75,7 +75,7 @@ console.log(x + y); //x plus y
 console.log(x - y); //x minus y
 console.log(x * y); //x times y
 console.log(x / y); // x divided by y
-console.log(x % y); // what is the remainder when x is divided by y
+console.log(x % y); // gets the remainder when x is divided by y
 console.log(x ** y); // x to the power of y
 
 //Increment (++)
@@ -203,7 +203,7 @@ console.log(y); //Returns 18.
 
     //If eligibleForLoan is true, !eligibleForLoan is false
     let applicationRefused = !eligibleForLoan;
-    console.log("Application refused equals " + applicationRefused); //Returns false;
+    console.log("Application refused equals " + applicationRefused); //Returns Application refused equals false;
 
 
 //Logical Operators with Non-Booleans
@@ -254,21 +254,6 @@ console.log(y); //Returns 18.
     console.log(1 & 2); //Returns 0
 
     //Bitwise Operators don't have as much practical application as Logical Operators 
-
-
-
-
-//Exercise: Swapping Variables
-
-    // Swap the values of a and b here to make the two console.log statements switch
-    let a = 'red';
-    let b = 'blue';
-
-    a = 'blue';
-    b = 'red';
-
-    console.log(a); //Returns red
-    console.log(b); //Returns blue
 
 
 
