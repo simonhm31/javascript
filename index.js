@@ -1,20 +1,6 @@
 const myName = 'Joe King';
 console.log(myName);
 
-//Objects:
-    let person = {
-        name: "Joe",
-        age: 21,
-        occupation: "Unemployed"
-    }
-
-    //logging object to console
-    console.log(person);
-    //logging specific property of object
-    console.log(person.occupation);
-
-
-
 
 //Arrays
     let anArray = ['this', 'is', 'an', 'array'];
