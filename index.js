@@ -2,19 +2,6 @@ const myName = 'Joe King';
 console.log(myName);
 
 
-//Arrays
-    let anArray = ['this', 'is', 'an', 'array'];
-
-    console.log(anArray[1]); // logs 'is'
-
-    anArray[4] = 'newElement'; // appends new element to end of array
-    console.log(anArray[4]) //logs new element
-
-    // Arrays are technically Objects!!
-    console.log(typeof anArray); //returns "object"
-    
-    //Because arrays are objects, you can access properties of an array
-    console.log(anArray.length); //returns 5
 
 
 
