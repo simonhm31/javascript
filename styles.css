@@ -3,6 +3,7 @@ body {
     text-align: center;
     width: 75%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: inside;
 }
 
 .title {
